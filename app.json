@@ -1,29 +1,42 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/index/index",
+    "pages/featured/featured",
+    "pages/search/search",
+    "pages/personal/personal"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#2aa515",
     "navigationBarTitleText": "WeInfo",
-    "navigationBarTextStyle":"black",
+    "navigationBarTextStyle":"white",
     "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#555",
     "borderStyle": "white",
     "backgroundColor": "#ffffff",
-    "selectedColor": "#ff0000",
+    "selectedColor": "#2aa515",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "image/home_icon.png",
-      "selectedIconPath": "image/home_select_icon.png"
+      "text": "新闻",
+      "iconPath": "image/news.png",
+      "selectedIconPath": "image/selected_news.png"
+    }, {
+      "pagePath": "pages/featured/featured",
+      "text": "精选",
+      "iconPath": "image/featured.png",
+      "selectedIconPath": "image/selected_featured.png"
+    }, {
+      "pagePath": "pages/search/search",
+      "text": "搜书",
+      "iconPath": "image/search.png",
+      "selectedIconPath": "image/selected_search.png"
     }, {
       "pagePath": "pages/personal/personal",
       "text": "个人中心",
-      "iconPath": "image/personal_icon.png",
-      "selectedIconPath": "image/personal_select_icon.png"
+      "iconPath": "image/personal.png",
+      "selectedIconPath": "image/selected_personal.png"
     }]
   },
   "networkTimeout": {
